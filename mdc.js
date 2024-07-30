@@ -11,4 +11,5 @@ function mdc(valor, resto) {
   const b = 36
   const MDC = mdc(a, b)
   console.log(`O MDC de ${a} e ${b} é ${MDC}.`)
-  
+
+module.exports = mdc

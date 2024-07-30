@@ -12,4 +12,5 @@ function multiplos() {
 
   const soma = multiplos(1000)
   console.log(`A soma de todos os múltiplos de 5 ou 7 abaixo de 1000 é ${soma}.`)
-  
+
+module.exports = multiplos

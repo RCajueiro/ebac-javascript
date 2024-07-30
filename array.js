@@ -21,4 +21,5 @@ function indices(array) {
   const a = [23, 87, 45, 19, 74, 92, 10, 33, 67, 50]
   const { maior, menor } = indices(a)
   console.log(`O índice do maior valor é ${maior}, e o índice do menor valor é ${menor}`)
-  
+
+module.exports = indices
